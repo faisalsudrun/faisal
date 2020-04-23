@@ -1,0 +1,107 @@
+html, body,
+ul, ol, li,
+h1, h2, h3, h4, h5, h6, p, div {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  font-family: 'Gill Sans MT';
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.container{
+  width: 1170px;
+  max-width: 1170px;
+  width: 100%;
+  padding: 0 15px;
+  margin: 0 auto;
+}
+
+.top-wrapper {
+  
+  height: 100vh;
+  background-image: url(image3.jpg);
+  background-size: cover;
+  position: relative;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+}
+
+.top-wrapper h1{
+  color: rgba(255, 255, 255, 0.8);
+  font-size: 70px;
+  line-height: 600px;
+  text-align: center;
+  text-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+.lesson-wrapper {
+  height: 2500px;
+  background-color: black;
+}
+
+.heading {
+  padding-top: 60px;
+  padding-bottom: 30px;
+  color: #5f5d60;
+  font-weight: normal;
+  text-align: center;
+}
+
+.lesson1 {
+  float: left;
+}
+
+.lesson1-icon{
+  float: left;
+  margin-right: 50px;
+}
+
+.lesson1 h2{
+  font-size: 40px;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.lesson1 p{
+  color: white;
+  font-size: 20px;
+  padding-inline-end: 100px;
+}
+
+.lesson2 {
+  float: right;
+  padding: 50px 0;
+}
+
+.lesson2-icon{
+  float: right;
+  margin-left: 50px;
+}
+
+.lesson2 h2{
+  font-size: 40px;
+  text-align: right;
+  margin-bottom: 20px;
+  color: white;
+}
+
+.lesson2 p{
+  color: white;
+  font-size: 20px;
+  text-align: right;
+  padding-inline-start: 100px;
+}
+
+
+
+
